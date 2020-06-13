@@ -17,7 +17,7 @@ class App extends React.Component {
     }
 
     handleClick = ()=>{  
-        //使用router的render 这样就有点像vue的component动态组件
+        //使用router的render 也可以动态组件
         this.setState(()=>{
             return {
                 gogo : <ul>
